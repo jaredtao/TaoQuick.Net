@@ -1,6 +1,10 @@
-# Calcs
+# TaoQuick-DotNet
 
-考勤统计工具
+TaoQuick for DotNet 5
 
-.net core 5.0
+TaoQuick is a cool Qt/Qml component library with many UI and effect components.
+
+TaoQuick-DotNet is a transplate library for TaoQuick, this project base on QmlNet
+
+
 
