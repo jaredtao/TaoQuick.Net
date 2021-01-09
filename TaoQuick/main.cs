@@ -20,6 +20,7 @@ namespace TaoQuick
             
             using (var app = new QGuiApplication(args))
             {
+                Qml.Net.Qml.RegisterType<Trans>("TaoQuickNet");
                 var trans = new Trans();
                 trans.loadFolder(Config.Config.transPath);
                 using (var engine = new QQmlApplicationEngine())
@@ -34,7 +35,7 @@ namespace TaoQuick
                     engine.SetContextProperty("isDebug", true);
                     
                     engine.SetContextProperty("taoQuickImagePath", Config.Config.importPath + "TaoQuick/Images/");
-                    
+
                     engine.SetContextProperty("trans", trans);
 
                     engine.Load(Config.Config.qmlPath + "main.qml");

@@ -17,7 +17,7 @@ namespace TaoQuick
         public string lang;
         public List<TransPair> trans;
     }
-    public class Trans
+    public class Trans 
     {
         readonly public static string sEn = "English";
         readonly public static string sZh = "简体中文";
