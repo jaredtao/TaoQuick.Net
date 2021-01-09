@@ -8,6 +8,10 @@ TaoQuick-DotNet is a transplant library from TaoQuick base on qmlnet.
 
 [qmlnet](https://github.com/qmlnet/qmlnet) is Qt/QML integration/support for .NET
 
+# Project Status
+
+Under construction
+
 # Some Demo Preview
 
 ## Main Page
